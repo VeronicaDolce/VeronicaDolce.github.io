@@ -1,6 +1,6 @@
 html, body {
     font-family: Helvetica, sans-serif;
-    margin: 75px;
+    margin: 50px;
 
     width: 100%;
     height: 100%;
@@ -19,11 +19,11 @@ h2 {
 
 h3 {
   color: black;
+  font-size: 1.5rem;
 }
 
 p {
     max-width: 65%;
-    color:black;
     text-align: justify;
 }
 
@@ -34,11 +34,23 @@ p {
 .nome {
   background-color: transparent;
 }
-.titolo {
+.banner {
   display: flex;
   flex-wrap: nowrap;
 }
-
-.video {
+.banner2 {
+  display: flex;
+  flex-wrap: nowrap;
   background-color: #cfcfcf;
+  font-size: 2.5rem;
+  color: white;
+}
+.quote {
+  text-align: center;
+}
+.banner3 {
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 1.25rem;
+  color: black;
 }
