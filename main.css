@@ -7,10 +7,20 @@ html, body {
 
 h1 {
     font-size: 48px;
-    color: red;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+  color: #d3d3d3;
+  text-align: center;
+}
+
+h3 {
+  color: black;
 }
 
 p {
     max-width: 65%;
-    color: #d3d3d3;
+    color:black;
 }
